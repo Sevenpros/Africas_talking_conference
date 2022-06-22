@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+nav,
+footer {
+  padding: 0 24px;
+}
+
+.navbar {
+  min-height: 92px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+}
+
+.navbar-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 30%;
+}
+
+.navbar-mobile a {
+  color: #272a31;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.headline {
+  min-height: 300px;
+  background: url('../images/background7.jpg');
+  background-size: cover;
+  padding: 130px 24px 60px 24px;
+}
+
+.headline-header {
+  color: #f64634;
+}
+
+.headline-header h1 {
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 10vw;
+}
+
+.headline-desc {
+  background-color: rgba(241, 241, 241, 0.781);
+  border: 2px solid white;
+  padding: 0 15px;
+}
+
+.program-article h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 3.7vw;
+}
+
+.headline-desc p {
+  color: #454546;
+  font-size: 4vw;
+  line-height: 5.5vw;
+  font-family: 'loto', sans-serif;
+  font-weight: 600;
+}
+
+.headline-date h2,
+h5 {
+  font-size: 6.5vw;
+  font-family: 'Franklin Gothic Heavy', sans-serif;
+  color: #272a31;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.headline-date h5 {
+  font-size: 4vw;
+  margin-top: 25px;
+  color: #454546;
+}
+
+.p-icon a {
+  color: white;
+  font-size: 5vw;
+  text-decoration: none;
+}
+
+.social-media-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.social-media-links li a {
+  text-decoration: none;
+  font-size: 7vw;
+  color: #272a31;
+  padding: 12px;
+  border: 2px solid #272a31;
+  border-radius: 50%;
+}
+
+.main-program-section {
+  min-height: 500px;
+  background: url('../images/background10.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 0 24px;
+  font-family: 'Franklin Gothic Heavy', sans-serif;
+  padding-bottom: 44px;
+}
+
+.program-header,
+.speaker-header {
+  min-height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-header h3,
+.speaker-header h3 {
+  font-size: 28px;
+}
+
+.program-article {
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  background: rgba(88, 88, 88, 0.418);
+  min-height: 100px;
+  gap: 2vw;
+  margin: 10px 0;
+}
+
+.p-name {
+  width: 30%;
+}
+
+.p-desc {
+  width: 70%;
+}
+
+.p-name h3 {
+  font-size: 5vw;
+  color: #f64634;
+}
+
+.more-program {
+  display: flex;
+  justify-content: center;
+}
+
+.more-program button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f64634;
+  color: white;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.more-program button:hover {
+  color: #f64634;
+  background: white;
+  border: 1px solid #f64634;
+}
+
+.speakers-section {
+  padding: 44px 24px;
+  min-height: 400px;
+  font-family: 'Franklin Gothic Heavy', sans-serif;
+}
+
+.speaker-card {
+  display: flex;
+
+  /* justify-content: space-between; */
+  gap: 4vw;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.speaker-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.7vh;
+  width: 75%;
+}
+
+.speaker-img {
+  width: 25%;
+}
+
+.speaker-img img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  border: 5px solid #272a31;
+}
+
+.speaker-name h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 4vw;
+}
+
+.speaker-title p {
+  color: #f64634;
+  font-style: italic;
+  font-size: 3vw;
+}
+
+.speaker-details p {
+  font-size: 3vw;
+}
+
+.more-speakers {
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgb(214, 211, 211);
+}
+
+.more-speakers:hover {
+  cursor: pointer;
+}
+
+.more {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 20px;
+  color: #f64634;
+}
