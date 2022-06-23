@@ -13,7 +13,7 @@ so most of the contents that presents in this project are reference to the upcom
 
 ## Live Demo 
 
-[Live Demo Link](https://sevenpros.github.io/Africas_talking_capstone/index.html)
+[Live Demo Link](https://drive.google.com/file/d/1xR6PUjLT1c8IFwfvYdcLDbcO-BwlrGht/view?usp=sharing)
 ![Desktop Version](https://user-images.githubusercontent.com/26649756/175357187-77e6f364-38f3-4e35-a8f9-0ce2b27a102d.jpg)
 ![Mobile Version](https://user-images.githubusercontent.com/26649756/175357416-244b751b-4848-4030-ab62-0e3da54b11d0.jpg)
 
@@ -23,7 +23,7 @@ so most of the contents that presents in this project are reference to the upcom
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-- Visit my github repo of this project [@githubhandle](https://github.com/Sevenpros/Portfolio)
+- Visit my github repo of this project [@Sevenpros](https://github.com/Sevenpros/Portfolio)
 - clone the project into you pc.
 - run the index.hmtl through your prefered web browser
 - enjoy
