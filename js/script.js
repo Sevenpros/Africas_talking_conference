@@ -88,9 +88,8 @@ const speakers = [
     `,
   ),
 ];
-
+const speakerSection = document.querySelector('.speakers-section');
 function fillSpeaker() {
-  const speakerSection = document.querySelector('.speakers-section');
   const speakersRow = document.createElement('div');
   const speakersRow2 = document.createElement('div');
   const moreSpeakers = document.createElement('div');
@@ -145,4 +144,4 @@ function fillSpeaker() {
   speakerSection.appendChild(moreSpeakers);
   speakerSection.appendChild(mmoreSpeakersButton);
 }
-window.addEventListener('load', fillSpeaker);
+if (speakerSection) window.addEventListener('load', fillSpeaker);
