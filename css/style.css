@@ -72,12 +72,51 @@ footer {
   padding-bottom: 18px;
 }
 
-.menu-list li a {
+.menu-list li a,
+.desktop-menu-list li a {
   color: #172b4d;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: lighter;
   text-decoration: none;
   font-family: 'Franklin Gothic Heavy', sans-serif;
+}
+
+.social-media-links li a {
+  text-decoration: none;
+  font-size: 4vw;
+  color: #272a31;
+  padding: 12px;
+  border: 2px solid #272a31;
+  border-radius: 50%;
+}
+
+.q-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-links {
+  margin-top: 18px;
+  justify-content: center;
+}
+
+.about-links li a {
+  font-size: 3vw;
+  color: white;
+  border: 1px solid white;
+}
+
+.desktop-menu-list li a:hover {
+  color: #f64634;
+}
+
+.desktop-menu-list {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .line {
@@ -147,15 +186,6 @@ h5 {
   gap: 12px;
   margin-top: 0;
   padding-top: 0;
-}
-
-.social-media-links li a {
-  text-decoration: none;
-  font-size: 7vw;
-  color: #272a31;
-  padding: 12px;
-  border: 2px solid #272a31;
-  border-radius: 50%;
 }
 
 .main-program-section {
@@ -409,27 +439,139 @@ h5 {
   gap: 3vw;
 }
 
-.q-links li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.about-links {
-  margin-top: 18px;
-  justify-content: center;
-}
-
-.about-links li a {
-  font-size: 3vw;
-  color: white;
-  border: 1px solid white;
-}
-
 .copyright {
   text-align: center;
 }
 
 .invisible {
   display: none;
+}
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .navbar-desktop {
+    display: block;
+  }
+
+  .headline-header h1 {
+    font-size: 5vw;
+  }
+
+  .headline-desc p {
+    font-size: 1.8vw;
+    line-height: 3vw;
+  }
+
+  .headline-date h2 {
+    font-size: 3vw;
+  }
+
+  .headline-date h5 {
+    font-size: 2vw;
+  }
+
+  .when-header a {
+    font-size: 2.5vw;
+  }
+
+  .social-media-links li a {
+    font-size: 2vw;
+  }
+
+  .main-program-section {
+    min-height: 350px;
+  }
+
+  .articles {
+    display: flex;
+    gap: 20px;
+  }
+
+  .program-article {
+    flex-direction: column;
+  }
+
+  .p-name {
+    width: 100%;
+  }
+
+  .p-desc {
+    width: 100%;
+  }
+
+  .p-name h3 {
+    font-size: 2vw;
+  }
+
+  .p-desc p {
+    font-size: 2vw;
+  }
+
+  .speaker-line {
+    display: flex;
+  }
+
+  .speaker-card {
+    gap: 1vw;
+  }
+
+  .speaker-img img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .speaker-name h3 {
+    font-size: 2vw;
+  }
+
+  .speaker-title p,
+  .speaker-details p {
+    font-size: 1.5vw;
+  }
+
+  .more-speakers {
+    display: none;
+  }
+
+  .hidden-speakers {
+    display: block;
+  }
+
+  .q-links {
+    flex-direction: row;
+  }
+
+  .when-where {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .when-header h3 {
+    font-size: 2.5vw;
+  }
+
+  .when-desc p {
+    font-size: 2vw;
+  }
+
+  .about-desc h3 {
+    font-size: 3vw;
+  }
+
+  .about-desc p {
+    font-size: 2.2vw;
+  }
+
+  .summit-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .summit {
+    width: 100%;
+  }
 }
