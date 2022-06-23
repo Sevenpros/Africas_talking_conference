@@ -18,6 +18,15 @@
             <div class="menu-icon">
                 <a id="show-menu" class="fa fa-bars" href="#"></a>
             </div>
+            <div class="navbar-desktop invisible">
+                <ul class="desktop-menu-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="about.html">About</a></li>    
+                </ul>
+            </div>
+
         </div>
         <div class="mobile-menu-list invisible">
             <div class="navbar-mobile">
@@ -38,7 +47,6 @@
     
         </div>
 
-        <div class="navbar-desktop invisible"></div>
     </nav>
     <main class="main">
         <section class="headline">
@@ -71,42 +79,44 @@
             <header class="program-header">
                 <h3>Agenda</h3>
             </header>
-            <article class="program-article">
-                <div class="p-name">
-                    <h3>Warm-up</h3>
-                </div>
-                <div class="p-desc">
-                    <p>
-                        Introduction and Pitching, 
-                        Form teams where need be. 
-                        Building/hacking, 
-                        Feedback, 
-                        Feature requests.
-                    </p>
-                </div>
-            </article>
-            <article class="program-article">
-                <div class="p-name">
-                    <h3> Code</h3>
-                </div>
-                <div class="p-desc">
-                    <p>
-                        Code in GitHub/GitLab/BitBucket and deploy in Docker/Automated
-                         CI/Travis CI/Bamboo <br>
-                    </p>
-
-                </div>
-            </article>
-            <article class="program-article">
-                <div class="p-name">
-                    <h3>Demo & Wrap-up</h3>
-                </div>
-                <div class="p-desc">
-                    <p>
-                        Teams or individuals will demo what they have hacked for feedback or adoption.
-                    </p>
-                </div>
-            </article>
+            <div class="articles">
+                <article class="program-article">
+                    <div class="p-name">
+                        <h3>Warm-up</h3>
+                    </div>
+                    <div class="p-desc">
+                        <p>
+                            Introduction and Pitching, 
+                            Form teams where need be. 
+                            Building/hacking, 
+                            Feedback, 
+                            Feature requests.
+                        </p>
+                    </div>
+                </article>
+                <article class="program-article">
+                    <div class="p-name">
+                        <h3> Code</h3>
+                    </div>
+                    <div class="p-desc">
+                        <p>
+                            Code in GitHub/GitLab/BitBucket and deploy in Docker/Automated
+                             CI/Travis CI/Bamboo <br>
+                        </p>
+    
+                    </div>
+                </article>
+                <article class="program-article">
+                    <div class="p-name">
+                        <h3>Demo & Wrap-up</h3>
+                    </div>
+                    <div class="p-desc">
+                        <p>
+                            Teams or individuals will demo what they have hacked for feedback or adoption.
+                        </p>
+                    </div>
+                </article>
+            </div>
             <div class="more-program">
                 <button>Join Africa's Talking</button>
             </div>
@@ -115,53 +125,169 @@
             <header class="speaker-header">
                 <h3>Featured Speakers</h3>
             </header>
-            <article class="speaker-card">
-                <div class="speaker-img">
-                    <img alt="picture of jack Ma" src="images/Michael.webp">
+            <div class="speaker-line">
+                <article class="speaker-card">
+                    <div class="speaker-img">
+                        <img alt="picture of jack Ma" src="images/Michael.webp">
+                    </div>
+                    <div class="speaker-desc">
+                        <div class="speaker-name">
+                            <h3>Michael Kimathi</h3>
+                        </div>
+                        <div class="speaker-title">
+                            <p>
+                               Founder and Co-Founder with a demonstrated history of working in the computer software industry. 
+                            </p>
+                        </div>
+                        <div class="speaker-details">
+                            <p>
+                                Skilled in agile frameworks, ecosystem builder and web apps.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="speaker-card">
+                    <div class="speaker-img">
+                        <img alt="picture of jack Ma" src="images/picture.jpeg">
+                    </div>
+                    <div class="speaker-desc">
+                        <div class="speaker-name">
+                            <h3>Gladys wambura</h3>
+                        </div>
+                        <div class="speaker-title">
+                            <p>
+                                Data analyst/Full-stack Software Developer |Typescript | 
+                                JAVA SCRIPT | PYTHON(Flask, Django)
+                            </p>
+                        </div>
+                        <div class="speaker-details">
+                            <p>
+                                full-Stack Software Developer trainee at Moringa School
+                            </p>
+                        </div>
+                    </div>
+                </article> 
+            </div>
+            
+            <div class="hidden-speakers invisible">
+                <div class="speaker-line">
+                    <article class="speaker-card">
+                        <div class="speaker-img">
+                            <img alt="picture of jack Ma" src="images/Michael.webp">
+                        </div>
+                        <div class="speaker-desc">
+                            <div class="speaker-name">
+                                <h3>Michael Kimathi</h3>
+                            </div>
+                            <div class="speaker-title">
+                                <p>
+                                   Founder and Co-Founder with a demonstrated history of working in the computer software industry. 
+                                </p>
+                            </div>
+                            <div class="speaker-details">
+                                <p>
+                                    Skilled in agile frameworks, ecosystem builder and web apps.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="speaker-card">
+                        <div class="speaker-img">
+                            <img alt="picture of jack Ma" src="images/picture.jpeg">
+                        </div>
+                        <div class="speaker-desc">
+                            <div class="speaker-name">
+                                <h3>Gladys wambura</h3>
+                            </div>
+                            <div class="speaker-title">
+                                <p>
+                                    Data analyst/Full-stack Software Developer |Typescript | 
+                                    JAVA SCRIPT | PYTHON(Flask, Django)
+                                </p>
+                            </div>
+                            <div class="speaker-details">
+                                <p>
+                                    full-Stack Software Developer trainee at Moringa School
+                                </p>
+                            </div>
+                        </div>
+                    </article> 
                 </div>
-                <div class="speaker-desc">
-                    <div class="speaker-name">
-                        <h3>Michael Kimathi</h3>
-                    </div>
-                    <div class="speaker-title">
-                        <p>
-                           Founder and Co-Founder with a demonstrated history of working in the computer software industry. 
-                        </p>
-                    </div>
-                    <div class="speaker-details">
-                        <p>
-                            Skilled in agile frameworks, ecosystem builder and web apps.
-                        </p>
-                    </div>
+                <div class="speaker-line">
+                    <article class="speaker-card">
+                        <div class="speaker-img">
+                            <img alt="picture of jack Ma" src="images/Michael.webp">
+                        </div>
+                        <div class="speaker-desc">
+                            <div class="speaker-name">
+                                <h3>Michael Kimathi</h3>
+                            </div>
+                            <div class="speaker-title">
+                                <p>
+                                   Founder and Co-Founder with a demonstrated history of working in the computer software industry. 
+                                </p>
+                            </div>
+                            <div class="speaker-details">
+                                <p>
+                                    Skilled in agile frameworks, ecosystem builder and web apps.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="speaker-card">
+                        <div class="speaker-img">
+                            <img alt="picture of jack Ma" src="images/picture.jpeg">
+                        </div>
+                        <div class="speaker-desc">
+                            <div class="speaker-name">
+                                <h3>Gladys wambura</h3>
+                            </div>
+                            <div class="speaker-title">
+                                <p>
+                                    Data analyst/Full-stack Software Developer |Typescript | 
+                                    JAVA SCRIPT | PYTHON(Flask, Django)
+                                </p>
+                            </div>
+                            <div class="speaker-details">
+                                <p>
+                                    full-Stack Software Developer trainee at Moringa School
+                                </p>
+                            </div>
+                        </div>
+                    </article> 
                 </div>
-            </article>
-            <article class="speaker-card">
-                <div class="speaker-img">
-                    <img alt="picture of jack Ma" src="images/picture.jpeg">
-                </div>
-                <div class="speaker-desc">
-                    <div class="speaker-name">
-                        <h3>Gladys wambura</h3>
-                    </div>
-                    <div class="speaker-title">
-                        <p>
-                            Data analyst/Full-stack Software Developer |Typescript | 
-                            JAVA SCRIPT | PYTHON(Flask, Django)
-                        </p>
-                    </div>
-                    <div class="speaker-details">
-                        <p>
-                            full-Stack Software Developer trainee at Moringa School
-                        </p>
-                    </div>
-                </div>
-            </article>            
+            </div>           
             <div class="more-speakers">
                 <span class="more">MORE</span><span class="fa fa-long-arrow-down arrow"></span>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="about-footer">
+        <div class="quick-links">
+            <h3>QUICK LINKS:</h3>
+            <ul class="q-links">
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">CHAPTERS</a></li>
+                <li><a href="#">START BUILDING</a></li>
+                <li><a href="#">JOIN SLACK</a></li>
+
+            </ul>
+        </div>
+        <div class="social-links ">
+            <ul class="social-media-links about-links">
+                <li><a href="#" class="fa fa-facebook"></a> </li>
+                <li><a href="#" class="fa fa-twitter"></a> </li>
+                <li><a href="#" class="fa fa-linkedin"></a> </li>
+                <li><a href="#" class="fa fa-pinterest"></a> </li>
+                <li><a href="#" class="fa fa-envelope"></a> </li>
+
+            </ul>
+        </div>
+        <div class="copyright">
+            <h4>&copy; 2022 Sevenpros All Rights Reserved</h4>
+            
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

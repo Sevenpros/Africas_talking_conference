@@ -72,12 +72,24 @@ footer {
   padding-bottom: 18px;
 }
 
-.menu-list li a {
+.menu-list li a, .desktop-menu-list li a {
   color: #172b4d;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: lighter;
   text-decoration: none;
   font-family: 'Franklin Gothic Heavy', sans-serif;
+}
+
+.desktop-menu-list li a:hover {
+  color:#f64634;
+}
+
+.desktop-menu-list {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .line {
@@ -151,7 +163,7 @@ h5 {
 
 .social-media-links li a {
   text-decoration: none;
-  font-size: 7vw;
+  font-size: 4vw;
   color: #272a31;
   padding: 12px;
   border: 2px solid #272a31;
@@ -433,3 +445,125 @@ h5 {
 .invisible {
   display: none;
 }
+
+@media (min-width: 768px){
+  .menu-icon {
+    display: none;
+  }
+
+  .navbar-desktop {
+    display: block;
+  }
+  
+  .headline-header h1 {
+    font-size: 5vw;
+  }
+  .headline-desc p {
+    font-size: 1.8vw;
+    line-height: 3vw;
+  }
+
+  .headline-date h2 {
+    font-size: 3vw;
+  }
+  .headline-date h5 {
+    font-size: 2vw;
+  }
+
+  .social-media-links li a {
+    font-size: 2vw;
+  }
+
+  .main-program-section {
+    min-height: 350px;
+  }
+
+  .articles {
+    display: flex;
+    gap: 20px;
+  }
+
+  .program-article {
+    flex-direction: column;
+  }
+  .p-name {
+    width: 100%;
+  }
+
+  .p-desc {
+    width: 100%;
+  }
+
+  .p-name h3 {
+    font-size: 2vw;
+  }
+
+  .p-desc p {
+    font-size: 2vw;
+  }
+
+  .speaker-line {
+    display: flex;
+  }
+
+  .speaker-card {
+    gap: 1vw;
+  }
+
+  .speaker-img img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .speaker-name h3 {
+    font-size: 2vw;
+  }
+
+  .speaker-title p, .speaker-details p{
+    font-size: 1.5vw;
+  }
+
+  .more-speakers {
+    display: none;
+  }
+  .hidden-speakers {
+    display: block;
+  }
+
+  .q-links {
+    flex-direction: row;
+  }
+
+  .when-where {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .when-header h3 {
+    font-size: 2.5vw;;
+  }
+
+  .when-header a {
+    font-size: 2.5vw;
+  }
+
+  .when-desc p {
+    font-size: 2vw;
+  }
+  .about-desc h3 {
+    font-size: 3vw;
+  }
+
+  .about-desc p {
+    font-size: 2.2vw;
+  }
+  .summit-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .summit {
+    width: 100%;
+  }
+}
+  
