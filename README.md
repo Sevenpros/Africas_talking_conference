@@ -2,55 +2,46 @@
 
 # Project Name
 
-> Description the project.
+> This is The platform for africa's talking conference that is suppose to happen to 30th june, 
+so most of the contents that presents in this project are reference to the upcoming conference.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JAVASCRIPT
+
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sevenpros.github.io/Africas_talking_capstone/index.html)
+
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps.
+- Visit my github repo of this project [@githubhandle](https://github.com/Sevenpros/Portfolio)
+- clone the project into you pc.
+- run the index.hmtl through your prefered web browser
+- enjoy
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- In order to clone the project you need to have a git installed in your computer
+- To run the project you will need to have a web browser installed on your computer as well.
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
+👤 **Seth Bizimana**
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/Sevenpros)
+- Twitter: [@twitterhandle](https://twitter.com/BizimanaSeth)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sethBizimana)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +55,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Design inspired from Cindy Shin in Behance.
 
 ## 📝 License
 
