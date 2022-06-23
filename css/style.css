@@ -96,15 +96,10 @@ footer {
   font-weight: bold;
 }
 
-.about-links {
-  margin-top: 18px;
-  justify-content: center;
-}
-
 .about-links li a {
   font-size: 3vw;
   color: white;
-  border: 1px solid white;
+  border: none;
 }
 
 .desktop-menu-list li a:hover {
@@ -186,6 +181,11 @@ h5 {
   gap: 12px;
   margin-top: 0;
   padding-top: 0;
+}
+
+.about-links {
+  margin-top: 18px;
+  justify-content: center;
 }
 
 .main-program-section {
@@ -422,7 +422,9 @@ h5 {
 
 .quick-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
   padding-bottom: 20px;
   border-bottom: 1px solid rgb(177, 177, 177);
 }
@@ -573,5 +575,17 @@ h5 {
 
   .summit {
     width: 100%;
+  }
+
+  .logo {
+    width: 15%;
+  }
+
+  .quick-links {
+    min-height: 90px;
+  }
+
+  .quick-links h3 {
+    margin: 0;
   }
 }
