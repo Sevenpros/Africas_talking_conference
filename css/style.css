@@ -341,7 +341,7 @@ h5 {
   padding-top: 20px;
   font-family: 'Franklin Gothic Heavy', sans-serif;
   font-weight: bolder;
-  color: #f64634;
+  color: #ff6d49;
 }
 
 .when-header {
@@ -515,6 +515,11 @@ h5 {
 
   .speaker-line {
     display: flex;
+  }
+
+  .speaker-line2 {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .speaker-card {
