@@ -104,6 +104,7 @@ function fillSpeaker() {
     speakersRow.innerHTML += `
       <article class="speaker-card">
           <div class="speaker-img">
+              <div class="img-back"></div>
               <img alt="picture of jack Ma" src="${speakers[i].image}">
           </div>
           <div class="speaker-desc">
@@ -113,6 +114,7 @@ function fillSpeaker() {
               <div class="speaker-title">
                   <p>${speakers[i].title}</p>
               </div>
+              <div class="divider speaker-divider"></div>
               <div class="speaker-details">
                   <p>${speakers[i].description} </p>
               </div>
@@ -125,6 +127,7 @@ function fillSpeaker() {
     speakersRow2.innerHTML += `
       <article class="speaker-card">
           <div class="speaker-img">
+              <div class="img-back"></div>
               <img alt="picture of jack Ma" src="${speakers[i].image}">
           </div>
           <div class="speaker-desc">
@@ -134,6 +137,7 @@ function fillSpeaker() {
               <div class="speaker-title">
                   <p>${speakers[i].title}</p>
               </div>
+              <div class="divider speaker-divider"></div>
               <div class="speaker-details">
                   <p>${speakers[i].description} </p>
               </div>
