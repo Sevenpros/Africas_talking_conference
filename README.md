@@ -14,8 +14,9 @@ so most of the contents that presents in this project are reference to the upcom
 ## Live Demo 
 
 [Live Demo Link](https://sevenpros.github.io/Africas_talking_capstone/)
-![Desktop Version](https://user-images.githubusercontent.com/26649756/175357187-77e6f364-38f3-4e35-a8f9-0ce2b27a102d.jpg)
-![Mobile Version](https://user-images.githubusercontent.com/26649756/175357416-244b751b-4848-4030-ab62-0e3da54b11d0.jpg)
+
+![Desktop version](https://user-images.githubusercontent.com/26649756/175777327-f79fa36c-aa0c-4d07-b175-1f11a2b6411a.jpg)
+![mobile version](https://user-images.githubusercontent.com/26649756/175777342-9ca09b71-685f-4136-b1cc-073d9ab51b80.jpg)
 
 
 
