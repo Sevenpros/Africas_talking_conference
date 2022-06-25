@@ -85,7 +85,7 @@ img {
 }
 
 .desktop-menu-list li a {
-  font-size: 2vw;
+  font-size: 1.2vw;
   padding: 5px 8px;
 }
 
@@ -115,6 +115,11 @@ img {
 
 .desktop-menu-list li a:active {
   border: #ec5242 2px solid;
+}
+
+#cc-compain {
+  border: #ec5242 2px solid;
+  color: #ec5242;
 }
 
 .top-nav {
@@ -346,8 +351,8 @@ h5 {
 .speaker-img img {
   width: 20vw;
   height: 20vw;
-  margin-top: -10vw;
-  margin-left: 5vw;
+  margin-top: -11vw;
+  margin-left: 3vw;
 }
 
 .speaker-name h3 {
@@ -357,7 +362,7 @@ h5 {
 }
 
 .speaker-title p {
-  color: #f64634;
+  color: #ec5242;
   font-style: italic;
   font-size: 3vw;
 }
@@ -566,8 +571,9 @@ h5 {
   }
 
   .headline-header h1 {
-    font-size: 7vw;
-    line-height: 7.3vw;
+    font-size: 6.7vw;
+    line-height: 6.3vw;
+    font-weight: lighter;
   }
 
   .headline-desc p {
@@ -580,7 +586,7 @@ h5 {
   }
 
   .headline-date h5 {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .when-header a {
@@ -675,8 +681,8 @@ h5 {
   .speaker-img img {
     width: 10vw;
     height: 10vw;
-    margin-top: -4vw;
-    margin-left: 2vw;
+    margin-top: -5.5vw;
+    margin-left: 1.5vw;
   }
 
   .speaker-name h3 {
@@ -685,7 +691,7 @@ h5 {
 
   .speaker-title p,
   .speaker-details p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
   }
 
   .more-speakers {
@@ -714,12 +720,17 @@ h5 {
     color: #272a31;
   }
 
+  .nav-social {
+    font-size: 2vw;
+  }
+
   .about-desc h3 {
     font-size: 2.3vw;
   }
 
   .about-headline h1 {
-    font-size: 6vw;
+    font-size: 4.3vw;
+    line-height: 4.3vw;
   }
 
   .q-links li {
