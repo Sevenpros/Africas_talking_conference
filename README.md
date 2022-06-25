@@ -13,7 +13,7 @@ so most of the contents that presents in this project are reference to the upcom
 
 ## Live Demo 
 
-[Live Demo Link](https://drive.google.com/file/d/1xR6PUjLT1c8IFwfvYdcLDbcO-BwlrGht/view?usp=sharing)
+[Live Demo Link](https://sevenpros.github.io/Africas_talking_capstone/)
 ![Desktop Version](https://user-images.githubusercontent.com/26649756/175357187-77e6f364-38f3-4e35-a8f9-0ce2b27a102d.jpg)
 ![Mobile Version](https://user-images.githubusercontent.com/26649756/175357416-244b751b-4848-4030-ab62-0e3da54b11d0.jpg)
 
